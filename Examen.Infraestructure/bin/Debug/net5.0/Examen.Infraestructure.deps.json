@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Examen.Infraestructure/1.0.0": {
+        "dependencies": {
+          "Examen.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Examen.Infraestructure.dll": {}
+        }
+      },
+      "Examen.Domain/1.0.0": {
+        "runtime": {
+          "Examen.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Examen.Infraestructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Examen.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

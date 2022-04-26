@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nTueFefUMezI+dTDfHTjGSmBX5TLdSdVE72ueqia5L4+voLnFKp/E5c9r+CTuenZoQHgD9NkAyrVRZnC4ZCn5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.Presentation\\Examen.Presentation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kevin Roa\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\Kevin Roa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
