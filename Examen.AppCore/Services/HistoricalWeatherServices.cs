@@ -9,21 +9,21 @@ using System.Threading.Tasks;
 
 namespace Examen.AppCore.Services
 {
-    public class ForeCastServices : BaseServices<ForeCast>, IForeCastServices
+    public class HistoricalWeatherServices : BaseServices<HistoricalWeather>, IHistorticalWeatherServices
     {
 
-        IForeCastModel Model;
-        public ForeCastServices(IForeCastModel model) : base(model)
+        IHistoricalWeatherModel Model;
+        public HistoricalWeatherServices(IHistoricalWeatherModel model) : base(model)
         {
             this.Model = model;
         }
 
-        public ForeCast GetById(int id)
+        public HistoricalWeather GetById(int id)
         {
             return Model.GetById(id);
         }
 
-        public void Update(ForeCast t)
+        public void Update(HistoricalWeather t)
         {
             Model.Update(t);
         }

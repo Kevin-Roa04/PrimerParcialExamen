@@ -26,12 +26,15 @@ namespace Examen.Presentation
 
             var builder = new ContainerBuilder();
 
-            builder.RegisterType<BinaryForeCastRepository>().As<IForeCastModel>();
-            builder.RegisterType<ObjetoServices>().As<IForeCastServices>();
+            builder.RegisterType<BinaryHistoricalWeatherRepository>().As<IHistoricalWeatherModel>();
+            builder.RegisterType<HistoricalWeatherServices>().As<IHistorticalWeatherServices>();
+
+            builder.RegisterType<HttpHistoricalWeatherClient>().As<IHttpHistoricalWeatherClient>();
+            builder.RegisterType<HttpHistoricalWeatherServices>().As<IHttpHistoricalWeatherServices>();
 
             var container = builder.Build();
 
-            Application.Run(new Form1(container.Resolve<IForeCastServices>()));
+            Application.Run(new Form1(container.Resolve<IHistorticalWeatherServices>(), container.Resolve<IHttpHistoricalWeatherServices>()));
         }
     }
 }

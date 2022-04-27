@@ -8,16 +8,16 @@ using System.Threading.Tasks;
 
 namespace Examen.Infraestructure.Repository
 {
-    public class BinaryForeCastRepository : IForeCastModel
+    public class BinaryHistoricalWeatherRepository : IHistoricalWeatherModel
     {
         private RAFContext Context;
         private const int Size = 0;
 
-        public BinaryForeCastRepository()
+        public BinaryHistoricalWeatherRepository()
         {
             this.Context = new RAFContext("", Size);
         }
-        public void Add(ForeCast t)
+        public void Add(HistoricalWeather t)
         {
             try
             {
@@ -41,11 +41,11 @@ namespace Examen.Infraestructure.Repository
             }
         }
 
-        public ForeCast GetById(int id)
+        public HistoricalWeather GetById(int id)
         {
             try
             {
-                return Context.Get<ForeCast>(id);
+                return Context.Get<HistoricalWeather>(id);
             }
             catch(Exception)
             {
@@ -53,11 +53,11 @@ namespace Examen.Infraestructure.Repository
             }
         }
 
-        public List<ForeCast> Read()
+        public List<HistoricalWeather> Read()
         {
             try
             {
-                return Context.GetAll<ForeCast>();
+                return Context.GetAll<HistoricalWeather>();
             }
             catch(Exception)
             {
@@ -65,7 +65,7 @@ namespace Examen.Infraestructure.Repository
             }
         }
 
-        public void Update(ForeCast t)
+        public void Update(HistoricalWeather t)
         {
             try
             {

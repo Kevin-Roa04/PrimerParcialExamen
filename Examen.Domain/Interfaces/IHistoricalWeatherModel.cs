@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Examen.Domain.Interfaces
 {
-    public interface IHttpForeCastClient
+    public interface IHistoricalWeatherModel : IModel<HistoricalWeather>
     {
-        Task<ForeCast> GetWeatherByCityNameAsync(string city);
+        HistoricalWeather GetById(int id);
+        void Update(HistoricalWeather t);
     }
 }

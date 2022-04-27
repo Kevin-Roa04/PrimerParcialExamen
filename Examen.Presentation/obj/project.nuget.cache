@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "uW4Cz9ItZiwYySvc2hiqRNsRQDfPnZZsFtt5cleiX4HpP0Q9fee2UhaMYHM+HySuKvEt6p04wUY9V9ANdl+k4A==",
+  "dgSpecHash": "Q2w7EZtDZTZ7BUWgMQzxLosX1BQkR69PgUNi9XlC68RWYA+nf3gbUlFhwRBmNfNfXlBK3Eb5b1L02ZNRuFniCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Presentation\\Examen.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CCBB17\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\CCBB17\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\CCBB17\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
     "C:\\Users\\CCBB17\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\CCBB17\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",

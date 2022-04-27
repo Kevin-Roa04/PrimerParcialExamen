@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Examen.AppCore.IServices
 {
-    public interface IHttpForeCastServices
+    public interface IHistorticalWeatherServices : IServices<HistoricalWeather>
     {
-        Task<ForeCast> GetWeatherByCityNameAsync(string city);
+        HistoricalWeather GetById(int id);
+        void Update(HistoricalWeather t);
     }
 }

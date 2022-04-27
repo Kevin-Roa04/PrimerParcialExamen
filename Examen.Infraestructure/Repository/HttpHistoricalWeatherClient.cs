@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace Examen.Infraestructure.Repository
 {
-    public class HtppForeCastClient : IHttpForeCastClient
+    public class HttpHistoricalWeatherClient : IHttpHistoricalWeatherClient
     {
-        async Task<ForeCast> IHttpForeCastClient.GetWeatherByCityNameAsync(string city)
+        public async Task<HistoricalWeather> GetWeatherByCityNameAsync(string lat, string lon, string time)
         {
-            string url = $"{AppSettings.ApiUrl}{city}&appid={AppSettings.Token}";
+            string url = $"{AppSettings.ApiUrl}lat={lat}&lon={lon}&dt={time}&appid={AppSettings.Token}";
             string jsonObject = string.Empty;
             try
             {
@@ -28,7 +28,7 @@ namespace Examen.Infraestructure.Repository
                     throw new NullReferenceException("El objeto json no puede ser null.");
                 }
 
-                return Newtonsoft.Json.JsonConvert.DeserializeObject<ForeCast>(jsonObject);
+                return Newtonsoft.Json.JsonConvert.DeserializeObject<HistoricalWeather>(jsonObject);
             }
             catch (Exception)
             {

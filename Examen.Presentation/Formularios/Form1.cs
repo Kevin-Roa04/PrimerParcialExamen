@@ -13,10 +13,12 @@ namespace Examen.Presentation.Formularios
 {
     public partial class Form1 : Form
     {
-        IForeCastServices objetoServices;
-        public Form1(IForeCastServices objetoServices)
+        IHistorticalWeatherServices historticalWeather;
+        IHttpHistoricalWeatherServices httpHistoricalWeather;
+        public Form1(IHistorticalWeatherServices historticalWeather, IHttpHistoricalWeatherServices httpHistoricalWeather)
         {
-            this.objetoServices = objetoServices;
+            this.historticalWeather = historticalWeather;
+            this.httpHistoricalWeather = httpHistoricalWeather;
             InitializeComponent();
         }
     }
