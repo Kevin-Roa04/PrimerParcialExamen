@@ -13,8 +13,8 @@ namespace Examen.Presentation.Formularios
 {
     public partial class Form1 : Form
     {
-        IObjetoServices objetoServices;
-        public Form1(IObjetoServices objetoServices)
+        IForeCastServices objetoServices;
+        public Form1(IForeCastServices objetoServices)
         {
             this.objetoServices = objetoServices;
             InitializeComponent();

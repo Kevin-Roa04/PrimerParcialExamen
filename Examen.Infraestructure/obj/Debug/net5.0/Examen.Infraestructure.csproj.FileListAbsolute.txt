@@ -13,3 +13,18 @@ C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.Infraestructure\obj\Debug\ne
 C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.Infraestructure\obj\Debug\net5.0\Examen.Infraestructure.dll
 C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.Infraestructure\obj\Debug\net5.0\ref\Examen.Infraestructure.dll
 C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.Infraestructure\obj\Debug\net5.0\Examen.Infraestructure.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\bin\Debug\net5.0\Examen.Infraestructure.deps.json
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\bin\Debug\net5.0\Examen.Infraestructure.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\bin\Debug\net5.0\ref\Examen.Infraestructure.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\bin\Debug\net5.0\Examen.Infraestructure.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\bin\Debug\net5.0\Examen.Domain.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\bin\Debug\net5.0\Examen.Domain.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\obj\Debug\net5.0\Examen.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\obj\Debug\net5.0\Examen.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\obj\Debug\net5.0\Examen.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\obj\Debug\net5.0\Examen.Infraestructure.AssemblyInfo.cs
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\obj\Debug\net5.0\Examen.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\obj\Debug\net5.0\Examen.Infraestructure.csproj.CopyComplete
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\obj\Debug\net5.0\Examen.Infraestructure.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\obj\Debug\net5.0\ref\Examen.Infraestructure.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Infraestructure\obj\Debug\net5.0\Examen.Infraestructure.pdb

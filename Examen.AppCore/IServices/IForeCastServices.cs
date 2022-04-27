@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Examen.Domain.Interfaces
+namespace Examen.AppCore.IServices
 {
-    public interface IObjetoModel : IModel<Objeto>
+    public interface IForeCastServices : IServices<ForeCast>
     {
-        Objeto GetById(int id);
-        void Update(Objeto t);
+        ForeCast GetById(int id);
+        void Update(ForeCast t);
     }
 }

@@ -8,16 +8,16 @@ using System.Threading.Tasks;
 
 namespace Examen.Infraestructure.Repository
 {
-    public class BinaryObjetoRepository : IObjetoModel
+    public class BinaryForeCastRepository : IForeCastModel
     {
         private RAFContext Context;
         private const int Size = 0;
 
-        public BinaryObjetoRepository()
+        public BinaryForeCastRepository()
         {
             this.Context = new RAFContext("", Size);
         }
-        public void Add(Objeto t)
+        public void Add(ForeCast t)
         {
             try
             {
@@ -41,11 +41,11 @@ namespace Examen.Infraestructure.Repository
             }
         }
 
-        public Objeto GetById(int id)
+        public ForeCast GetById(int id)
         {
             try
             {
-                return Context.Get<Objeto>(id);
+                return Context.Get<ForeCast>(id);
             }
             catch(Exception)
             {
@@ -53,11 +53,11 @@ namespace Examen.Infraestructure.Repository
             }
         }
 
-        public List<Objeto> Read()
+        public List<ForeCast> Read()
         {
             try
             {
-                return Context.GetAll<Objeto>();
+                return Context.GetAll<ForeCast>();
             }
             catch(Exception)
             {
@@ -65,7 +65,7 @@ namespace Examen.Infraestructure.Repository
             }
         }
 
-        public void Update(Objeto t)
+        public void Update(ForeCast t)
         {
             try
             {

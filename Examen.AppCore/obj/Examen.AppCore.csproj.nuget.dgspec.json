@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.AppCore\\Examen.AppCore.csproj": {}
+    "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.AppCore\\Examen.AppCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.AppCore\\Examen.AppCore.csproj": {
+    "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.AppCore\\Examen.AppCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.AppCore\\Examen.AppCore.csproj",
+        "projectUniqueName": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.AppCore\\Examen.AppCore.csproj",
         "projectName": "Examen.AppCore",
-        "projectPath": "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.AppCore\\Examen.AppCore.csproj",
-        "packagesPath": "C:\\Users\\Kevin Roa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.AppCore\\obj\\",
+        "projectPath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.AppCore\\Examen.AppCore.csproj",
+        "packagesPath": "C:\\Users\\CCBB17\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.AppCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kevin Roa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CCBB17\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.Domain\\Examen.Domain.csproj": {
-                "projectPath": "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.Domain\\Examen.Domain.csproj"
+              "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Domain\\Examen.Domain.csproj": {
+                "projectPath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Domain\\Examen.Domain.csproj"
               }
             }
           }
@@ -58,21 +58,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.Domain\\Examen.Domain.csproj": {
+    "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Domain\\Examen.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.Domain\\Examen.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Domain\\Examen.Domain.csproj",
         "projectName": "Examen.Domain",
-        "projectPath": "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.Domain\\Examen.Domain.csproj",
-        "packagesPath": "C:\\Users\\Kevin Roa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.Domain\\obj\\",
+        "projectPath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Domain\\Examen.Domain.csproj",
+        "packagesPath": "C:\\Users\\CCBB17\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kevin Roa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CCBB17\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

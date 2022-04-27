@@ -9,21 +9,21 @@ using System.Threading.Tasks;
 
 namespace Examen.AppCore.Services
 {
-    public class ObjetoServices : BaseServices<Objeto>, IObjetoServices
+    public class ForeCastServices : BaseServices<ForeCast>, IForeCastServices
     {
 
-        IObjetoModel Model;
-        public ObjetoServices(IObjetoModel model) : base(model)
+        IForeCastModel Model;
+        public ForeCastServices(IForeCastModel model) : base(model)
         {
             this.Model = model;
         }
 
-        public Objeto GetById(int id)
+        public ForeCast GetById(int id)
         {
             return Model.GetById(id);
         }
 
-        public void Update(Objeto t)
+        public void Update(ForeCast t)
         {
             Model.Update(t);
         }

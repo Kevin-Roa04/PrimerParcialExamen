@@ -26,12 +26,12 @@ namespace Examen.Presentation
 
             var builder = new ContainerBuilder();
 
-            builder.RegisterType<BinaryObjetoRepository>().As<IObjetoModel>();
-            builder.RegisterType<ObjetoServices>().As<IObjetoServices>();
+            builder.RegisterType<BinaryForeCastRepository>().As<IForeCastModel>();
+            builder.RegisterType<ObjetoServices>().As<IForeCastServices>();
 
             var container = builder.Build();
 
-            Application.Run(new Form1(container.Resolve<IObjetoServices>()));
+            Application.Run(new Form1(container.Resolve<IForeCastServices>()));
         }
     }
 }

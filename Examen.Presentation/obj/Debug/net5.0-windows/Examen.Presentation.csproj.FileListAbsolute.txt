@@ -24,3 +24,30 @@ C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.Presentation\obj\Debug\net5.
 C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.Presentation\obj\Debug\net5.0-windows\ref\Examen.Presentation.dll
 C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.pdb
 C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.genruntimeconfig.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Presentation.exe
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Presentation.dll.config
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Presentation.deps.json
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Presentation.runtimeconfig.json
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Presentation.runtimeconfig.dev.json
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Presentation.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\ref\Examen.Presentation.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Presentation.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Autofac.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.AppCore.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Domain.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Infraestructure.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.AppCore.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Infraestructure.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\bin\Debug\net5.0-windows\Examen.Domain.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.csproj.AssemblyReference.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.Formularios.Form1.resources
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.csproj.GenerateResource.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.AssemblyInfoInputs.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.AssemblyInfo.cs
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.csproj.CopyComplete
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\ref\Examen.Presentation.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Presentation\obj\Debug\net5.0-windows\Examen.Presentation.genruntimeconfig.cache

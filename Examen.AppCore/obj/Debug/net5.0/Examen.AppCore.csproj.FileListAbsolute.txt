@@ -13,3 +13,18 @@ C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.AppCore\obj\Debug\net5.0\Exa
 C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.AppCore\obj\Debug\net5.0\Examen.AppCore.dll
 C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.AppCore\obj\Debug\net5.0\ref\Examen.AppCore.dll
 C:\Users\Kevin Roa\source\repos\PrimerExamen\Examen.AppCore\obj\Debug\net5.0\Examen.AppCore.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\bin\Debug\net5.0\Examen.AppCore.deps.json
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\bin\Debug\net5.0\Examen.AppCore.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\bin\Debug\net5.0\ref\Examen.AppCore.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\bin\Debug\net5.0\Examen.AppCore.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\bin\Debug\net5.0\Examen.Domain.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\bin\Debug\net5.0\Examen.Domain.pdb
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\obj\Debug\net5.0\Examen.AppCore.csproj.AssemblyReference.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\obj\Debug\net5.0\Examen.AppCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\obj\Debug\net5.0\Examen.AppCore.AssemblyInfoInputs.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\obj\Debug\net5.0\Examen.AppCore.AssemblyInfo.cs
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\obj\Debug\net5.0\Examen.AppCore.csproj.CoreCompileInputs.cache
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\obj\Debug\net5.0\Examen.AppCore.csproj.CopyComplete
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\obj\Debug\net5.0\Examen.AppCore.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\obj\Debug\net5.0\ref\Examen.AppCore.dll
+C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.AppCore\obj\Debug\net5.0\Examen.AppCore.pdb

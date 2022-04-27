@@ -1,11 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "nTueFefUMezI+dTDfHTjGSmBX5TLdSdVE72ueqia5L4+voLnFKp/E5c9r+CTuenZoQHgD9NkAyrVRZnC4ZCn5g==",
+  "dgSpecHash": "uW4Cz9ItZiwYySvc2hiqRNsRQDfPnZZsFtt5cleiX4HpP0Q9fee2UhaMYHM+HySuKvEt6p04wUY9V9ANdl+k4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kevin Roa\\source\\repos\\PrimerExamen\\Examen.Presentation\\Examen.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Presentation\\Examen.Presentation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kevin Roa\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
-    "C:\\Users\\Kevin Roa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\CCBB17\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\CCBB17\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
