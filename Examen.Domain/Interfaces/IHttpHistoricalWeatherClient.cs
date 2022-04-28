@@ -9,6 +9,6 @@ namespace Examen.Domain.Interfaces
 {
     public interface IHttpHistoricalWeatherClient
     {
-        Task<HistoricalWeather> GetWeatherByCityNameAsync(string lat, string lon, string time);
+        Task<HistoricalWeather> GetWeatherByLanAndLonAsync(string lat, string lon, long time);
     }
 }

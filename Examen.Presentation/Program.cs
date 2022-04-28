@@ -32,9 +32,12 @@ namespace Examen.Presentation
             builder.RegisterType<HttpHistoricalWeatherClient>().As<IHttpHistoricalWeatherClient>();
             builder.RegisterType<HttpHistoricalWeatherServices>().As<IHttpHistoricalWeatherServices>();
 
+            builder.RegisterType<HttpOpenWeatherClient>().As<IHttpOpenWeatherClient>();
+            builder.RegisterType<HttpOpenWeatherServices>().As<IHttpOpenWeatherServices>();
+
             var container = builder.Build();
 
-            Application.Run(new Form1(container.Resolve<IHistorticalWeatherServices>(), container.Resolve<IHttpHistoricalWeatherServices>()));
+            Application.Run(new Form1(container.Resolve<IHistorticalWeatherServices>(), container.Resolve<IHttpHistoricalWeatherServices>(), container.Resolve<IHttpOpenWeatherServices>()));
         }
     }
 }

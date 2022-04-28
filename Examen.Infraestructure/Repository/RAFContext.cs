@@ -77,7 +77,46 @@ namespace Examen.Infraestructure.Repository
                                         bwData.Write((int)PInfoClass.GetValue(obj));
                                         break;
                                     }
+                                    /*
+                                    if (PInfoClass.PropertyType == typeof(int))
+                                    {
+                                        bwData.Write((int)obj);
+                                    }
+                                    else if (PInfoClass.PropertyType == typeof(long))
+                                    {
+                                        bwData.Write((long)obj);
+                                    }
+                                    else if (PInfoClass.PropertyType == typeof(float))
+                                    {
+                                        bwData.Write((float)obj);
+                                    }
+                                    else if (PInfoClass.PropertyType == typeof(double))
+                                    {
+                                        bwData.Write((double)obj);
+                                    }
+                                    else if (PInfoClass.PropertyType == typeof(decimal))
+                                    {
+                                        bwData.Write((decimal)obj);
+                                    }
+                                    else if (PInfoClass.PropertyType == typeof(char))
+                                    {
+                                        bwData.Write((char)obj);
+                                    }
+                                    else if (PInfoClass.PropertyType == typeof(bool))
+                                    {
+                                        bwData.Write((bool)obj);
+                                    }
+                                    else if (PInfoClass.PropertyType == typeof(string))
+                                    {
+                                        bwData.Write((string)obj);
+                                    }
+                                    else if (type.IsEnum)
+                                    {
+                                        bwData.Write((int)obj);
+                                    }
+                                    */
                                 }
+                                   
                                 continue;
                             }
                             if (pinfo.Name.Equals("Id", StringComparison.CurrentCultureIgnoreCase))
@@ -192,10 +231,46 @@ namespace Examen.Infraestructure.Repository
                                 if (PInfoClass.Name.Equals("Id", StringComparison.CurrentCultureIgnoreCase))
                                 {
                                     PInfoClass.SetValue(objectClass, brData.GetValue<int>(TypeCode.Int32));
-                                    pinfo.SetValue(newValue, objectClass);
                                     break;
                                 }
+                                if (type == typeof(int))
+                                {
+                                    PInfoClass.SetValue(objectClass, brData.GetValue<int>(TypeCode.Int32));
+                                }
+                                else if (type == typeof(long))
+                                {
+                                    PInfoClass.SetValue(objectClass, brData.GetValue<long>(TypeCode.Int64));
+                                }
+                                else if (type == typeof(float))
+                                {
+                                    PInfoClass.SetValue(objectClass, brData.GetValue<float>(TypeCode.Single));
+                                }
+                                else if (type == typeof(double))
+                                {
+                                    PInfoClass.SetValue(objectClass, brData.GetValue<double>(TypeCode.Double));
+                                }
+                                else if (type == typeof(decimal))
+                                {
+                                    PInfoClass.SetValue(objectClass, brData.GetValue<decimal>(TypeCode.Decimal));
+                                }
+                                else if (type == typeof(char))
+                                {
+                                    PInfoClass.SetValue(objectClass, brData.GetValue<char>(TypeCode.Char));
+                                }
+                                else if (type == typeof(bool))
+                                {
+                                    PInfoClass.SetValue(objectClass, brData.GetValue<bool>(TypeCode.Boolean));
+                                }
+                                else if (type == typeof(string))
+                                {
+                                    PInfoClass.SetValue(objectClass, brData.GetValue<string>(TypeCode.String));
+                                }
+                                else if (type.IsEnum)
+                                {
+                                    PInfoClass.SetValue(objectClass, brData.GetValue<int>(TypeCode.Int32));
+                                }
                             }
+                            pinfo.SetValue(newValue, objectClass);
                             continue;
                         }
 

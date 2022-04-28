@@ -11,11 +11,11 @@ namespace Examen.Infraestructure.Repository
     public class BinaryHistoricalWeatherRepository : IHistoricalWeatherModel
     {
         private RAFContext Context;
-        private const int Size = 0;
+        private const int Size = 600;
 
         public BinaryHistoricalWeatherRepository()
         {
-            this.Context = new RAFContext("", Size);
+            this.Context = new RAFContext("HistoricalWeather", Size);
         }
         public void Add(HistoricalWeather t)
         {
@@ -75,6 +75,11 @@ namespace Examen.Infraestructure.Repository
             {
                 throw;
             }
+        }
+
+        public List<HistoricalWeather.Weather> WeatherByTimeZone(string TimeZone)
+        {
+            return Context.Find<HistoricalWeather.Weather>(x => x.TimeZone == TimeZone);
         }
     }
 }

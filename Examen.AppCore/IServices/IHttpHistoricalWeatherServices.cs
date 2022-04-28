@@ -9,6 +9,6 @@ namespace Examen.AppCore.IServices
 {
     public interface IHttpHistoricalWeatherServices
     {
-        Task<HistoricalWeather> GetWeatherByCityNameAsync(string lat, string lon, string time);
+        Task<HistoricalWeather> GetWeatherByLanAndLonAsync(string lat, string lon, long time);
     }
 }

@@ -12,9 +12,9 @@ namespace Examen.Infraestructure.Repository
 {
     public class HttpHistoricalWeatherClient : IHttpHistoricalWeatherClient
     {
-        public async Task<HistoricalWeather> GetWeatherByCityNameAsync(string lat, string lon, string time)
+        public async Task<HistoricalWeather> GetWeatherByLanAndLonAsync(string lat, string lon, long time)
         {
-            string url = $"{AppSettings.ApiUrl}lat={lat}&lon={lon}&dt={time}&appid={AppSettings.Token}";
+            string url = $"{AppSettings.ApiHistoricalWeatherUrl}lat={lat}&lon={lon}&dt={time}&appid={AppSettings.Token}";
             string jsonObject = string.Empty;
             try
             {
@@ -35,5 +35,6 @@ namespace Examen.Infraestructure.Repository
                 throw;
             }
         }
+
     }
 }

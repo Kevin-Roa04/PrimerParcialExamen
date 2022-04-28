@@ -639,19 +639,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CCBB17\\.nuget\\packages\\": {}
+    "C:\\Users\\Kevin Roa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Presentation\\Examen.Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin Roa\\Desktop\\PrimerParcialExamen\\Examen.Presentation\\Examen.Presentation.csproj",
       "projectName": "Examen.Presentation",
-      "projectPath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Presentation\\Examen.Presentation.csproj",
-      "packagesPath": "C:\\Users\\CCBB17\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Presentation\\obj\\",
+      "projectPath": "C:\\Users\\Kevin Roa\\Desktop\\PrimerParcialExamen\\Examen.Presentation\\Examen.Presentation.csproj",
+      "packagesPath": "C:\\Users\\Kevin Roa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kevin Roa\\Desktop\\PrimerParcialExamen\\Examen.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CCBB17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kevin Roa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -665,11 +665,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.AppCore\\Examen.AppCore.csproj": {
-              "projectPath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.AppCore\\Examen.AppCore.csproj"
+            "C:\\Users\\Kevin Roa\\Desktop\\PrimerParcialExamen\\Examen.AppCore\\Examen.AppCore.csproj": {
+              "projectPath": "C:\\Users\\Kevin Roa\\Desktop\\PrimerParcialExamen\\Examen.AppCore\\Examen.AppCore.csproj"
             },
-            "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Infraestructure\\Examen.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\CCBB17\\Desktop\\PrimerParcialExamen\\Examen.Infraestructure\\Examen.Infraestructure.csproj"
+            "C:\\Users\\Kevin Roa\\Desktop\\PrimerParcialExamen\\Examen.Infraestructure\\Examen.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\Kevin Roa\\Desktop\\PrimerParcialExamen\\Examen.Infraestructure\\Examen.Infraestructure.csproj"
             }
           }
         }
@@ -707,7 +707,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

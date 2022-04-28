@@ -17,9 +17,9 @@ namespace Examen.AppCore.Services
         {
             this.Client = httpForeCastClient;
         }
-        public Task<HistoricalWeather> GetWeatherByCityNameAsync(string lat, string lon, string time)
+        public Task<HistoricalWeather> GetWeatherByLanAndLonAsync(string lat, string lon, long time)
         {
-            return Client.GetWeatherByCityNameAsync(lat, lon, time);
+            return Client.GetWeatherByLanAndLonAsync(lat, lon, time);
         }
     }
 }

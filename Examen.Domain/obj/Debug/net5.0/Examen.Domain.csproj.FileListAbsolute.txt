@@ -22,3 +22,15 @@ C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\Exame
 C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\Examen.Domain.dll
 C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\ref\Examen.Domain.dll
 C:\Users\CCBB17\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\Examen.Domain.pdb
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\bin\Debug\net5.0\Examen.Domain.deps.json
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\bin\Debug\net5.0\Examen.Domain.dll
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\bin\Debug\net5.0\ref\Examen.Domain.dll
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\bin\Debug\net5.0\Examen.Domain.pdb
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\Examen.Domain.csproj.AssemblyReference.cache
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\Examen.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\Examen.Domain.AssemblyInfoInputs.cache
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\Examen.Domain.AssemblyInfo.cs
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\Examen.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\Examen.Domain.dll
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\ref\Examen.Domain.dll
+C:\Users\Kevin Roa\Desktop\PrimerParcialExamen\Examen.Domain\obj\Debug\net5.0\Examen.Domain.pdb
