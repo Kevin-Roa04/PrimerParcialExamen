@@ -11,7 +11,7 @@ namespace Examen.Infraestructure.Repository
     public class BinaryHistoricalWeatherRepository : IHistoricalWeatherModel
     {
         private RAFContext Context;
-        private const int Size = 600;
+        private const int Size = 130;
 
         public BinaryHistoricalWeatherRepository()
         {
@@ -76,10 +76,23 @@ namespace Examen.Infraestructure.Repository
                 throw;
             }
         }
-
-        public List<HistoricalWeather.Weather> WeatherByTimeZone(string TimeZone)
+        public List<string> GetNameCitys()
         {
-            return Context.Find<HistoricalWeather.Weather>(x => x.TimeZone == TimeZone);
+            List<string> names = new List<string>();
+            List<HistoricalWeather> historicalWeathers = Read();
+            if (historicalWeathers.Count >= 1)
+            {
+                foreach (HistoricalWeather historical in historicalWeathers)
+                {
+                    if (historical is null)
+                    {
+                        continue;
+                    }
+                    names.Add(historical.Name);
+                }
+                return names;
+            }
+            return null;
         }
     }
 }

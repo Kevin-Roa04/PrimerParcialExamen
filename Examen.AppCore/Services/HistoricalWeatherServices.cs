@@ -23,6 +23,11 @@ namespace Examen.AppCore.Services
             return Model.GetById(id);
         }
 
+        public List<string> GetNameCitys()
+        {
+            return Model.GetNameCitys();
+        }
+
         public void Update(HistoricalWeather t)
         {
             Model.Update(t);

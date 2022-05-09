@@ -13,15 +13,15 @@ namespace Examen.Presentation.Formularios
 {
     public partial class HistoryPanel : UserControl
     {
-        public HistoryPanel(List<HistoricalWeather.Weather> weather, OpenWeather openWeather)
+        public HistoryPanel(List<HistoricalWeather.Weather> weather, HistoricalWeather historicalWeather)
         {
             InitializeComponent();
-            lblCity.Text = openWeather.Name;
-            lblTemp.Text = openWeather.Main.Temp.ToString();
-            lblWeather.Text = openWeather.Weather[0].Main;
+            lblCity.Text = historicalWeather.Name;
+            lblTemp.Text = historicalWeather.TempOpen.ToString();
+            lblWeather.Text = historicalWeather.WeatherOpen;
             foreach (HistoricalWeather.Weather weather1 in weather)
             {
-                flpDetails.Controls.Add(new DetailsHistory("Clima", weather1.main));
+                flpDetails.Controls.Add(new DetailsHistory("Clima", weather1.description, weather1.Temp.ToString()));
             }
         }
     }

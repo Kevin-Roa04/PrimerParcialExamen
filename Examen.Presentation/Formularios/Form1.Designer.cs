@@ -64,13 +64,15 @@ namespace Examen.Presentation.Formularios
             // 
             // flpContent
             // 
-            this.flpContent.Location = new System.Drawing.Point(445, 12);
+            this.flpContent.AutoScroll = true;
+            this.flpContent.Location = new System.Drawing.Point(457, 0);
             this.flpContent.Name = "flpContent";
-            this.flpContent.Size = new System.Drawing.Size(343, 426);
+            this.flpContent.Size = new System.Drawing.Size(343, 450);
             this.flpContent.TabIndex = 4;
             // 
             // flpCitys
             // 
+            this.flpCitys.AutoScroll = true;
             this.flpCitys.Location = new System.Drawing.Point(9, 259);
             this.flpCitys.Name = "flpCitys";
             this.flpCitys.Size = new System.Drawing.Size(430, 179);

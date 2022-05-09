@@ -11,5 +11,6 @@ namespace Examen.AppCore.IServices
     {
         HistoricalWeather GetById(int id);
         void Update(HistoricalWeather t);
+        List<string> GetNameCitys();
     }
 }

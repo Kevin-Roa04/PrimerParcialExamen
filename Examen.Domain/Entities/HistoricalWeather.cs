@@ -8,15 +8,21 @@ namespace Examen.Domain.Entities
 {
     public class HistoricalWeather
     {
+        public int Id { get; set; } //4
+        public string Name { get; set; } // 18
         public double lat { get; set; } // 8
         public double lon { get; set; } // 8
-        public string timezone { get; set; } //50
-        public int timezone_offset { get; set; } // 4
-        public Current current { get; set; }
+        public string WeatherOpen { get; set; } //18
+        public double TempOpen {get; set; } //8                                              
         public List<Hourly> hourly { get; set; }
+        public Current current { get; set; }
+        public string timezone { get; set; } //50
+        public long Time { get; set; } //8
+
 
         public class Weather
         {
+            public double Temp { get; set; }
             public string TimeZone { get; set; } //28
             public int id { get; set; } // 4
             public string main { get; set; }  // 18

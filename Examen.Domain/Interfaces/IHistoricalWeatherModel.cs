@@ -11,5 +11,6 @@ namespace Examen.Domain.Interfaces
     {
         HistoricalWeather GetById(int id);
         void Update(HistoricalWeather t);
+        List<string> GetNameCitys();
     }
 }

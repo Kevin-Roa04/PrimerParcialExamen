@@ -18,7 +18,7 @@ namespace Examen.Presentation.Formularios
         public IHttpHistoricalWeatherServices httpHistoricalWeather;
         public IHttpOpenWeatherServices httpOpenWeather;
         public OpenWeather openWeather;
-        public HistoricalWeather historicalWeatherObj;
+        public HistoricalWeather historicalWeatherObj = new HistoricalWeather();
         List<HistoricalWeather.Weather> weather = new List<HistoricalWeather.Weather>();
         public Form1(IHistorticalWeatherServices historticalWeather, IHttpHistoricalWeatherServices httpHistoricalWeather, IHttpOpenWeatherServices httpOpenWeatherServices)
         {
@@ -44,10 +44,10 @@ namespace Examen.Presentation.Formularios
                     MessageBox.Show("No encontramos información de la ciudad", "Error en la busqueda", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                flpContent.Controls.Add(new HistoryPanel(weather, openWeather));
+                flpContent.Controls.Add(new HistoryPanel(weather, historicalWeatherObj));
                 weather.Clear();
                 LlenartxtInfo(0);
-                flpCitys.Controls.Add(new DetailsHistory("Ciudad", historicalWeatherObj.current.name));
+                flpCitys.Controls.Add(new DetailsHistory("Ciudad", historicalWeatherObj.Name));
             }
             catch(Exception ex)
             {
@@ -64,23 +64,31 @@ namespace Examen.Presentation.Formularios
         {
             for (int i = 0; i < 4; i++)
             {
-                DateTime time = DateTime.Now.AddDays(-i - 1);
-
-                long unix = ((DateTimeOffset)time).ToUnixTimeSeconds();
-
-                historicalWeatherObj = await httpHistoricalWeather.GetWeatherByLanAndLonAsync(openWeather.Coord.Lat.ToString(), openWeather.Coord.Lon.ToString(), unix);
+                historicalWeatherObj = await httpHistoricalWeather.GetWeatherByLanAndLonAsync(openWeather.Coord.Lat.ToString(), openWeather.Coord.Lon.ToString(), CreateUnix(i));
                 HistoricalWeather.Weather weathers = historicalWeatherObj.hourly[6].weather[0];
                 weathers.TimeZone = historicalWeatherObj.timezone;
+                weathers.Temp = Math.Truncate(historicalWeatherObj.current.temp - 273.15);
                 weather.Add(weathers);
             }
-            historicalWeatherObj.current.name = openWeather.Name;
+            historicalWeatherObj.Name = openWeather.Name;
+            historicalWeatherObj.lat = openWeather.Coord.Lat;
+            historicalWeatherObj.lon = openWeather.Coord.Lon;
+            historicalWeatherObj.TempOpen = openWeather.Main.Temp;
+            historicalWeatherObj.WeatherOpen = openWeather.Weather[0].Main;
+            historicalWeatherObj.Time = CreateUnix(0);
             historticalWeather.Add(historicalWeatherObj);
+        }
+        private long CreateUnix(int i)
+        {
+            DateTime time = DateTime.Now.AddDays(-i - 1);
+            long unix = ((DateTimeOffset)time).ToUnixTimeSeconds();
+            return unix;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             LlenartxtInfo(1);
-            List<string> names = GetNameCitys();
+            List<string> names = historticalWeather.GetNameCitys();
             if (names is null)
                 return;
             else
@@ -92,24 +100,7 @@ namespace Examen.Presentation.Formularios
                 }
             }
         }
-        private List<string> GetNameCitys()
-        {
-            List<string> names = new List<string>();
-            List<HistoricalWeather> historicalWeathers = historticalWeather.Read();
-            if (historicalWeathers.Count >= 1)
-            {
-                foreach (HistoricalWeather historical in historicalWeathers)
-                {
-                    if (historical is null)
-                    {
-                        continue;
-                    }
-                    names.Add(historical.current.name);
-                }
-                return names;
-            }
-            return null;
-        }
+       
 
         private void LlenartxtInfo(int i)
         {
@@ -126,8 +117,8 @@ namespace Examen.Presentation.Formularios
             }
             else
             {
-                List<String> names = GetNameCitys();
-                if(names is null)
+                List<String> names = historticalWeather.GetNameCitys();
+                if (names is null)
                 {
                     return;
                 }
